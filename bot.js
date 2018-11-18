@@ -969,15 +969,6 @@ client.on("message", message => {
             return;
         }
     });
-client.on('guildMemberAdd', member => {
-const mohamed= member.guild.channels.get("ايدي الروم");
-if(!mohamed) return;
-if(mohamed) {
-setTimeout(() => mohamed.send(`Welcome`), 4000)        
-}
-});
-  
-client.login('NTEzNDU5MjYwNTQ2NjEzMjU1.DtIUAw.F7fFv6z1jlEBeE9BFHrE4SX6YkY');
 
 
 
